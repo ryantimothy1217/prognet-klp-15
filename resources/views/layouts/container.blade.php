@@ -32,7 +32,7 @@
 				
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
-					<div class="home_slider_background" style="background-image:url(assets/User/images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(assets/User/images/image3.jpg)"></div>
 					<div class="home_slider_content_container">
 						<div class="container">
 							<div class="row">
@@ -50,7 +50,7 @@
 
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
-					<div class="home_slider_background" style="background-image:url(assets/User/images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(assets/User/images/image2.jpg)"></div>
 					<div class="home_slider_content_container">
 						<div class="container">
 							<div class="row">
@@ -68,7 +68,7 @@
 
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
-					<div class="home_slider_background" style="background-image:url(assets/User/images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(assets/User/images/image1.jpg)"></div>
 					<div class="home_slider_content_container">
 						<div class="container">
 							<div class="row">
@@ -124,7 +124,7 @@
 						</div>
 					</div>
 					<div class="avds_small_content">
-						<div class="avds_title">Smart Phones</div>
+						<div class="avds_title">Sepatu</div>
 						<div class="avds_link"><a href="categories.html">See More</a></div>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 				<div class="avds_background" style="background-image:url(assets/User/images/avds_large.jpg)"></div>
 				<div class="avds_large_container">
 					<div class="avds_large_content">
-						<div class="avds_title">Professional Cameras</div>
+						<div class="avds_title">Bahan Kulit</div>
 						<div class="avds_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed viver ra velit venenatis fermentum luctus.</div>
 						<div class="avds_link avds_link_large"><a href="categories.html">See More</a></div>
 					</div>
@@ -192,7 +192,7 @@
 					<div class="avds_xl_container clearfix">
 						<div class="avds_xl_background" style="background-image:url(assets/User/images/avds_xl.jpg)"></div>
 						<div class="avds_xl_content">
-							<div class="avds_title">Amazing Devices</div>
+							<div class="avds_title">Amazing Shoes</div>
 							<div class="avds_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus.</div>
 							<div class="avds_link avds_xl_link"><a href="categories.html">See More</a></div>
 						</div>

@@ -185,7 +185,7 @@
 					<div class="row">
 						<div class="col">
 							<div class="home_content">
-								<div class="home_title">Smart Phones<span>.</span></div>
+								<div class="home_title">Toko Sepatu<span>.</span></div>
 								<div class="home_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed viverra velit venenatis fermentum luctus.</p></div>
 							</div>
 						</div>
@@ -230,83 +230,83 @@
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_1.jpg" alt=""></div>
+							<div class="product_image"><img src="images/boots-4.jpg" alt=""></div>
 							<div class="product_extra product_new"><a href="categories.html">New</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$670</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">250.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_2.jpg" alt=""></div>
+							<div class="product_image"><img src="images/boots-5.jpg" alt=""></div>
 							<div class="product_extra product_sale"><a href="categories.html">Sale</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$520</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">100.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_3.jpg" alt=""></div>
+							<div class="product_image"><img src="images/slipon-1.jpg" alt=""></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$710</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">200.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_4.jpg" alt=""></div>
+							<div class="product_image"><img src="images/slipon-2.jpg" alt=""></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$330</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">100.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_5.jpg" alt=""></div>
+							<div class="product_image"><img src="images/slipon-3.jpg" alt=""></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$170</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">150.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_6.jpg" alt=""></div>
+							<div class="product_image"><img src="images/slipon-4.jpg" alt=""></div>
 							<div class="product_extra product_hot"><a href="categories.html">Hot</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$240</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">100.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_7.jpg" alt=""></div>
+							<div class="product_image"><img src="images/slipon-5.jpg" alt=""></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$70</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">140.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_8.jpg" alt=""></div>
+							<div class="product_image"><img src="images/sneakers-1.jpg" alt=""></div>
 							<div class="product_extra product_sale"><a href="categories.html">Hot</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$490</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">100.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_9.jpg" alt=""></div>
+							<div class="product_image"><img src="images/sneakers-2.jpg" alt=""></div>
 							<div class="product_extra product_sale"><a href="categories.html">Hot</a></div>
 							<div class="product_content">
 								<div class="product_title"><a href="product.html">Smart Phone</a></div>
@@ -316,31 +316,31 @@
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_10.jpg" alt=""></div>
+							<div class="product_image"><img src="images/sneakers-3.jpg" alt=""></div>
 							<div class="product_extra product_sale"><a href="categories.html">Hot</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$365</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">900.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_11.jpg" alt=""></div>
+							<div class="product_image"><img src="images/sneakers-4.jpg" alt=""></div>
 							<div class="product_extra product_sale"><a href="categories.html">Hot</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$195</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">100.000</div>
 							</div>
 						</div>
 
 						<!-- Product -->
 						<div class="product">
-							<div class="product_image"><img src="images/product_12.jpg" alt=""></div>
+							<div class="product_image"><img src="images/sneakers-5.jpg" alt=""></div>
 							<div class="product_extra product_sale"><a href="categories.html">Hot</a></div>
 							<div class="product_content">
-								<div class="product_title"><a href="product.html">Smart Phone</a></div>
-								<div class="product_price">$580</div>
+								<div class="product_title"><a href="product.html">Sepatu</a></div>
+								<div class="product_price">300.000</div>
 							</div>
 						</div>
 
@@ -438,7 +438,7 @@
 					<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
 						<div class="footer_logo"><a href="#">Sublime.</a></div>
 						<div class="copyright ml-auto mr-auto"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by Kelompok 15 <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 						<div class="footer_social ml-lg-auto">
 							<ul>

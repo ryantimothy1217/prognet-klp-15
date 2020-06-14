@@ -1,5 +1,14 @@
 @extends('layouts.produk')
 @section('content')
+
+<style>
+	.thumbnail{
+		display: inline-block;
+		height: 100px;
+		margin: 10px;    
+	}
+</style>
+
 <div class="container">
 	<div class="row align-items-centre">
 		<div class="col-lg-2">
@@ -48,7 +57,8 @@
 					<div class="card-body">
 						<div class="form-group">
 							<label>Pilih Foto</label>
-							<input type="file" class="form-control" placeholder="Nama Produk" aria-label="Nama Produk" aria-describedby="basic-addon1" name="files[]" multiple required>
+							<input type="file" class="form-control" placeholder="Nama Produk" aria-label="Nama Produk" aria-describedby="basic-addon1" name="files[]" multiple required id="files">
+							<output id="result" />
 						</div>	
 					</div>
 						<div class="card-footer" align="center">
@@ -72,4 +82,56 @@
 		</div>
 	</div>
 </div>
+
+<script>
+        
+		//Check File API support
+		if(window.File && window.FileList && window.FileReader)
+		{
+			var filesInput = document.getElementById("files");
+			
+			filesInput.addEventListener("change", function(event){
+				
+				
+				var files = event.target.files; //FileList object
+				var output = document.getElementById("result");
+				
+				output.innerHTML = "";
+				
+				for(var i = 0; i< files.length; i++)
+				{
+					var file = files[i];
+					
+					//Only pics
+					if(!file.type.match('image'))
+					  continue;
+					
+					var picReader = new FileReader();
+					
+					picReader.addEventListener("load",function(event){
+						
+						var picFile = event.target;
+						
+						var div = document.createElement("span");
+						
+						div.innerHTML = "<img class='thumbnail' src='" + picFile.result + "'" +
+								"title='" + picFile.name + "'/>";
+						
+						output.insertBefore(div,null);            
+					
+					});
+					
+					 //Read the image
+					picReader.readAsDataURL(file);
+				}                               
+			   
+			});
+		}
+		else
+		{
+			console.log("Your browser does not support File API");
+		}
+</script>
+
+
 @endsection

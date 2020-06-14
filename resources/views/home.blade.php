@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Sublime project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shoesshop.com</title>
+<title>BooShoes.com</title>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 <link href="{{asset('assets/css/mdb.min.css')}}" rel="stylesheet">
 <link rel="shortcut icon" href="{{asset('assets/User/images/logo.png')}}" type="image/x-icon">
@@ -24,6 +24,7 @@
 	<!-- Header -->
 
 	@extends('layouts.navbar')
+
 	
 	<!-- Home -->
 
@@ -35,14 +36,14 @@
 				
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
-					<div class="home_slider_background" style="background-image:url(assets/User/images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(assets/User/images/image2.jpg)"></div>
 					<div class="home_slider_content_container">
 						<div class="container">
 							<div class="row">
 								<div class="col">
 									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-										<div class="home_slider_title">Toko Sepatu</div>
-										<div class="home_slider_subtitle">Sedia Sepatu Bagus</div>
+										<div class="home_slider_title">BooShoes</div>
+										<div class="home_slider_subtitle">Sepatu Brand Originial</div>
 									</div>
 								</div>
 							</div>
@@ -52,14 +53,14 @@
 
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
-					<div class="home_slider_background" style="background-image:url(assets/User/images/home_slider_2.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(assets/User/images/image1.jpg)"></div>
 					<div class="home_slider_content_container">
 						<div class="container">
 							<div class="row">
 								<div class="col">
 									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-										<div class="home_slider_title">Shoes</div>
-										<div class="home_slider_subtitle">Beli Sepatu Hanya Disini</div>
+										<div class="home_slider_title">Nike Shoes</div>
+										<div class="home_slider_subtitle">Beli Sepatu Murah Hanya disini</div>
 									</div>
 								</div>
 							</div>
@@ -69,14 +70,14 @@
 
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
-					<div class="home_slider_background" style="background-image:url(assets/User/images/home_slider_3.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(assets/User/images/image3.jpg)"></div>
 					<div class="home_slider_content_container">
 						<div class="container">
 							<div class="row">
 								<div class="col">
 									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-										<div class="home_slider_title">Shoes</div>
-										<div class="home_slider_subtitle">Beli Sepatu di Shoeshop.com</div>
+										<div class="home_slider_title">Nike Shoes</div>
+										<div class="home_slider_subtitle">Sepatu Murah di BooShoes</div>
 									</div>
 								</div>
 							</div>
@@ -152,22 +153,23 @@
 							@if($disc!=0)
 								<div style="background-color:red;"class="product_extra product_new"><a href="categories.html">-{{$disc}}%</a></div>
 							@endif
-								<div class="product_content">
-									<div class="product_title"><a href="/product/{{$products->id}}">{{$products->product_name}}</a></div>
-									<span class="badge badge-primary mb-2">Rating: {{$products->product_rate}} <i class="fa fa-star"></i></span>
-									@if ($products->stock == 0)
-									<span class="badge badge-danger mb-2">Out Of Stock!</span>
-									@endif	
-										@php
-											$home = new Home;
-                            				$harga = $home->diskon($products->discount,$products->price);
-										@endphp
-										@if ($harga != 0)	   
-											<div style="text-decoration:line-through;" class="product_price">Rp.{{number_format($products->price)}}</div>
-											<div style="font-weight:bold;color:black;" class="product_price">Rp.{{number_format($harga)}}</div>
-										@else
-											<div class="product_price">Rp.{{number_format($products->price)}}</div>
-										@endif
+							<div class="product_content">
+							<div class="product_title"><a href="/product/{{$products->id}}">{{$products->product_name}}</a></div>
+							<span class="badge badge-primary mb-2">Rating: {{$products->product_rate}} <i class="fa fa-star"></i></span>
+							<ul class="rating">
+							@for ($i = 0; $i < $products->product_rate; $i++)
+							<li>
+							<i class="fas fa-star blue-text"></i>
+							</li>
+							@endfor
+							@if($products->product_rate < 5)
+							@for ($i = 0; $i < 5 - $products->product_rate; $i++)
+							<li>
+							<i class="fas fa-star grey-text"></i>
+							</li>
+							@endfor
+							@endif
+							</ul>
 								</div>
 						</div>
 						@endforeach
@@ -187,8 +189,8 @@
 					<div class="avds_xl_container clearfix">
 						<div class="avds_xl_background" style="background-image:url(assets/User/images/product_5.jpg)"></div>
 						<div class="avds_xl_content">
-							<div class="avds_title" style="font-size: 40px">shoesshop.com</div>
-							<div class="avds_text">Toko Sepatu</div>
+							<div class="avds_title" style="font-size: 40px">BooShoes.com</div>
+							<div class="avds_text">BooShoes</div>
 						</div>
 					</div>
 				</div>
@@ -215,13 +217,13 @@
 			<div class="row">
 				<div class="col">
 					<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-						<div class="footer_logo"><a href="#">shoesshop.com</a></div>
+						<div class="footer_logo"><a href="#">BooShoes.com</a></div>
 						<div class="copyright ml-auto mr-auto"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy; All rights reserved | by Kelompok 22<a href="#" target="_blank"></a></div>
+Copyright &copy; All rights reserved | by Kelompok 15<a href="#" target="_blank"></a></div>
 						<div class="footer_social ml-lg-auto">
 							<ul>
-								<li><a href="https://www.instagram.com/widnyanakesuma/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="https://www.facebook.com/widnyanaaksm/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.instagram.com/milliniautami/?hl=id"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>

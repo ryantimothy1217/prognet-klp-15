@@ -203,13 +203,21 @@
 		  
 						  </a>
 		  
-						  <!-- Rating -->
+						   <!-- Rating -->
+						   <span class="badge badge-primary mb-2">Rating: {{$item->rate}} <i class="fa fa-star"></i></span>
 						  <ul class="rating">
 							@for ($i = 0; $i < $item->rate; $i++)
 							  <li>
 								<i class="fas fa-star blue-text"></i>
 							  </li>
 							@endfor
+							@if($item->rate < 5)
+								@for ($i = 0; $i < 5 - $item->rate; $i++)
+								<li>
+									<i class="fas fa-star grey-text"></i>
+								</li>
+								@endfor
+							@endif
 						  </ul>
 						  <input type="hidden" class="rate{{$loop->iteration-1}}" value="{{$item->rate}}">
 						  <input type="hidden" class="content{{$loop->iteration-1}}" value="{{$item->content}}">

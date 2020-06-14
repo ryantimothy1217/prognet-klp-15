@@ -236,10 +236,7 @@
     </section>
     <!-- /.content -->
   </div>
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <strong>Copyright &copy; Kelompok 22 Prognet <a href="https://www.facebook.com/widnyanaaksm/" target="_blank">WIDNYANA</a>.</strong>
-  </footer>
+  
 
 
 <script src="{{ asset('assets/Admin/js/jquery.nicescroll.js')}}"></script>

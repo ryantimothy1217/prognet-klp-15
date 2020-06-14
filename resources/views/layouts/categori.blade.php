@@ -241,7 +241,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; Kelompok 22 Prognet <a href="https://www.facebook.com/widnyanaaksm/" target="_blank">WIDNYANA</a>.</strong>
+    <strong>Copyright &copy; Kelompok 15 Prognet <a href="" target="_blank">MILLINIA UTAMI</a>.</strong>
   </footer>
 
 

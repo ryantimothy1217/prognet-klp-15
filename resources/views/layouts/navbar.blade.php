@@ -1,11 +1,11 @@
-<header class="header">
+<header class="header" style="padding-bottom: -50px;">
 	<div class="header_container">
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="header_content d-flex flex-row align-items-center justify-content-start">
-						<div class="logo"><a href="/home"><img style="width:50px;height:50px;margin-top:-5px;margin-right:10px;" src="{{asset('assets/User/images/logo.png')}}">Shoesshop.com</a></div>
-						<nav class="main_nav">
+						<div class="logo" style="width:63%;"><a href="/home"><img style="width:50px;height:50px;margin-top:-5px;margin-right:10px;" src="{{asset('assets/User/images/logo.png')}}">Booshoes.com</a></div>
+						<nav class="main_nav" style="width:37%;">
 							<ul>
 								@auth
 								<li class="hassubs active">
